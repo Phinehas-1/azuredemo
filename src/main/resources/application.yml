@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: azuredemo
+    datasource:
+        url: jdbc:postgresql://demo-db-server-tella.postgres.database.azure.com:5432/postgres?sslmode=require
+        username: demo_db_admin
+        password: Godhelpm3
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
